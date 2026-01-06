@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputSimulator" Version="1.0.4" />
+    <PackageReference Include="Interop.UIAutomationClient" Version="10.19041.0" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="ValveResourceFormat" Version="17.0.5499" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="cs2_sound_converter.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="null.vsnd_c">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
