@@ -1,6 +1,8 @@
 # DotaSoundFix
 A program for fixing broken and outdated sound files in Dota 2 mods.
 
+It is recommended to use one object (hero) for sound files, since the names of sound files may coincide and erase each other when corrected.
+
 <i>For automatic correction of audio codecs to work, Counter Strike 2 must be installed.</i>
 
 ## Buttons
